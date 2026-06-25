@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+.venv311/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Raw training data (large, regenerable, NOT needed at runtime —
+# do NOT exclude models/ or models/*.csv, the API needs those to run)
+master_dar_final.csv
+master_dar_with_capital.csv
+master_dar_model_ready.csv
+
+# Environment secrets
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
